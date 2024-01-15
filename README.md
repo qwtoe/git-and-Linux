@@ -1,6 +1,9 @@
 # GIT
 
+> remote: Support for password authentication was removed on August 13, 2021.
+fatal: Authentication failed fo ...
 
+✅在 github/Settings/Developer Settings/Personal access tokens 生成一个tocken，再 `git remote set-url origin https://<token>@github.com/<name>/<repo_name>.git` ，连接到远程仓库。
 
 # Linux
 
