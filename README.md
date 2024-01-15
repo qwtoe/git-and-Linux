@@ -5,8 +5,23 @@ fatal: Authentication failed fo ...
 
 ✅在 github/Settings/Developer Settings/Personal access tokens 生成一个tocken，再 `git remote set-url origin https://<token>@github.com/<name>/<repo_name>.git` ，连接到远程仓库。
 
+</br>
+
+> Failed to connect to github.com port 443: Connection refused
+
+✅设置->网络和Internet->代理，查看**本机系统端口号**：
+![](https://moonpic.oss-cn-beijing.aliyuncs.com/tf-feb/202401151156379.png)
+
+```bash
+git config --global http.proxy 127.0.0.1:<your_port>
+
+git config --global https.proxy 127.0.0.1:<your_port>
+```
+
+reference from https://blog.csdn.net/qq_40296909/article/details/134285451
 # Linux
 
+## 下载源
 
 **清华源**
 
@@ -55,3 +70,5 @@ index-url = http://mirrors.aliyun.com/pypi/simple/
 [install]
 trusted-host=mirrors.aliyun.com
 ```
+
+
