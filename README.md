@@ -1,5 +1,18 @@
 # GIT
 
+## commit
+
+- **修改commit信息**
+
+    修改上一条commit信息
+    ```bash
+    git commit --amend -m "new message"
+    git commit --amend  # 会打开文本编辑器，显示上一次提交的消息
+    ```
+
+---
+## 报错
+
 > remote: Support for password authentication was removed on August 13, 2021.
 fatal: Authentication failed fo ...
 
@@ -10,6 +23,7 @@ fatal: Authentication failed fo ...
 > Failed to connect to github.com port 443: Connection refused
 
 ✅设置->网络和Internet->代理，查看**本机系统端口号**：
+
 ![](https://moonpic.oss-cn-beijing.aliyuncs.com/tf-feb/202401151156379.png)
 
 ```bash
