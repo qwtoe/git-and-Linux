@@ -1,4 +1,4 @@
-# GIT
+<h1 align="center">GIT</h1>
 
 ## commit
 
@@ -33,7 +33,14 @@ git config --global https.proxy 127.0.0.1:<your_port>
 ```
 
 reference from https://blog.csdn.net/qq_40296909/article/details/134285451
-# Linux
+
+---
+
+<h1 align="center">Linux<h1>
+
+## 命令
+
+`cd ../../` 进入上上级目录
 
 ## 下载源
 
