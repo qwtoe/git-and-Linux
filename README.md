@@ -46,7 +46,7 @@ git config --global https.proxy 127.0.0.1:<your_port>
 reference from https://blog.csdn.net/qq_40296909/article/details/134285451
 
 
-<h1 align="center">Linux<h1>
+<h1 align="center">Linux</h1>
 
 ## 命令
 
