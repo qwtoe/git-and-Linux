@@ -9,8 +9,17 @@
     git commit --amend -m "new message"
     git commit --amend  # 会打开文本编辑器，显示上一次提交的消息
     ```
-
 ---
+
+## log
+
+`git log oneline` 和 `git log --pretty=oneline` 的区别：
+
+<div style="text-align: center;">
+  <img src="https://moonpic.oss-cn-beijing.aliyuncs.com/tf-feb/202401172247787.png" style="max-width:100%, height=auto;">
+</div>
+
+
 ## 报错
 
 > remote: Support for password authentication was removed on August 13, 2021.
@@ -24,7 +33,9 @@ fatal: Authentication failed fo ...
 
 ✅设置->网络和Internet->代理，查看**本机系统端口号**：
 
-![](https://moonpic.oss-cn-beijing.aliyuncs.com/tf-feb/202401151156379.png)
+<div style="text-align:center;">
+    <img src="https://moonpic.oss-cn-beijing.aliyuncs.com/tf-feb/202401151156379.png">
+</div>
 
 ```bash
 git config --global http.proxy 127.0.0.1:<your_port>
@@ -34,7 +45,6 @@ git config --global https.proxy 127.0.0.1:<your_port>
 
 reference from https://blog.csdn.net/qq_40296909/article/details/134285451
 
----
 
 <h1 align="center">Linux<h1>
 
